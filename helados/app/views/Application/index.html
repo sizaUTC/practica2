@@ -1,0 +1,300 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+	
+	<section id="slider"><!--slider-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="slider-carousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#slider-carousel" data-slide-to="1"></li>
+							<li data-target="#slider-carousel" data-slide-to="2"></li>
+							<li data-target="#slider-carousel" data-slide-to="3"></li>
+						</ol>
+						
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="col-sm-12">
+									<img src="@{'/public/images/product/SLIDER2.jpg'}" class="img-responsive" alt="" withe="500px" height=" 200px"/>
+									
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-sm-12">
+									<center><img src="@{'/public/images/product/SLIDER3.jpg'}" class="img-responsive" alt="" withe="500px" height=" 200px"  /></center>
+								</div>
+							</div>
+							
+							<div class="item">
+								<div class="col-sm-12">
+									<img src="@{'/public/images/product/SLIDER5.jpg'}" class="img-responsive" alt="" />
+								</div>
+							</div>
+							
+							<div class="item">
+								<div class="col-sm-12">
+									<img src="@{'/public/images/product/SLIDER10.jpg'}" class="img-responsive" alt="" />
+								</div>
+							</div>
+							
+						</div>
+						
+						
+						<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+							<i class="fa fa-angle-left"></i>
+						</a>
+						<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+							<i class="fa fa-angle-right"></i>
+						</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section><!--/slider-->
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 padding-right">
+					
+					<div class="category-tab"><!--category-tab-->
+						<div class="col-sm-12">
+							<ul class="nav nav-tabs">
+								<li class="active"><a href="#tshirt" data-toggle="tab">CREMA</a></li>
+								<li><a href="#blazers" data-toggle="tab">SABORES</a></li>
+														
+							</ul>
+						</div>
+						<div class="tab-content">
+							<div class="tab-pane fade active in" id="tshirt" >
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="@{'/public/images/product/pro1.png'}" alt="" height="150px"/>
+												<h2>$0.50</h2>
+												<p>COCO</p>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="@{'/public/images/product/pro2.png'}" alt="" height="150px"/>
+												<h2>$0.50</h2>
+												<p>FRUTILLA</p>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="@{'/public/images/product/pro3.png'}"  height="150px" alt="" />
+												<h2>$0.50</h2>
+												<p>PASAS</p>
+												
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="@{'/public/images/product/pro4.png'}" height="150px" alt="" />
+												<h2>$0.50</h2>
+												<p>MORA</p>
+											
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="tab-pane fade" id="blazers" >
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="@{'/public/images/product/ice2.jpg'}" alt="" height="150px"/>
+												<h2>$0.50</h2>
+												<p>Papanabo </p>
+												
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="@{'/public/images/product/ice3.jpg'}" alt="" height="150px"/>
+												<br><br><h2>$0.50</h2>
+												<p>Rabano</p>
+												
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="@{'/public/images/product/ICE 08.png'}" height="150px" alt="" />
+												<br><br><h2>$0.50</h2>
+												<p>Remolacha</p>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="@{'/public/images/product/ice7.jpg'}" alt="" height="150px" />
+												<br><br><h2>$0.50</h2>
+												<p>Zanahoria</p>
+												
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							
+							
+						</div>
+					</div><!--/category-tab-->
+					
+					<div class="recommended_items"><!--recommended_items-->
+						<h2 class="title text-center">Productos Recomendados</h2>
+						
+						<div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="item active">	
+									<div class="col-sm-4">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+												<img src="@{'/public/images/home/sl1.jpg'}" height="150px" alt="" />
+												<h2>$0.55</h2>
+												<p>NARANJILLA</p>
+												
+											</div>
+												
+											</div>
+										</div>
+									</div>
+									
+									<div class="col-sm-4">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+												<img src="@{'/public/images/home/sl2.jpg'}" height="150px" alt="" />
+												<h2>$0.55</h2>
+												<p>CHOCOLATE</p>
+												
+											</div>
+												
+											</div>
+										</div>
+									</div>
+									
+									<div class="col-sm-4">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+												<img src="@{'/public/images/home/sl2.jpg'}" height="150px" alt="" />
+												<h2>$0.55</h2>
+												<p>CHOCOLATE</p>
+												
+											</div>
+												
+											</div>
+										</div>
+									</div>
+									
+								</div>
+								<div class="item">	
+									<div class="col-sm-4">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<img src="@{'/public/images/product/ice7.jpg'}" height="150px" width="180px" alt="" />
+													<h2>$0.55</h2>
+													<p>MANGO VERDE</p>
+													
+												</div>
+													
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+														<div class="productinfo text-center">
+															<img src="@{'/public/images/product/ice6.jpg'}" height="150px" alt="" />
+															<h2>$0.55</h2>
+															<p>MORA</p>
+															
+														</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+												<img src="@{'/public/images/product/ice3.jpg'}" height="150px" alt="Silla" />
+												<h2>$1.00</h2>
+												<p>TUTI FRUTY</p>
+												
+											</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							 <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+								<i class="fa fa-angle-left"></i>
+							  </a>
+							  <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+								<i class="fa fa-angle-right"></i>
+							  </a>			
+						</div>
+					</div><!--/recommended_items-->
+					
+				</div>
+			</div>
+		</div>
+		<div class="common-modal modal fade" id="common-Modal1" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-content">
+				<ul class="list-inline item-details">
+					<li><a href="http://themifycloud.com">ThemifyCloud</a></li>
+					<li><a href="http://themescloud.org">ThemesCloud</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+
+  
+ 
+</body>
+</html>

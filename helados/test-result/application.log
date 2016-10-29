@@ -1,0 +1,148 @@
+20 ene 2016 10:53:37,472 INFO  ~ Starting C:\Workspace\TiendaHortalizas
+20 ene 2016 10:53:37,483 INFO  ~ Module crud is available (c:\play\modules\crud)
+20 ene 2016 10:53:37,484 INFO  ~ Module secure is available (c:\play\modules\secure)
+20 ene 2016 10:53:39,314 WARN  ~ You're running Play! in DEV mode
+20 ene 2016 10:53:39,570 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+20 ene 2016 10:53:58,979 INFO  ~ Connected to jdbc:postgresql://localhost/hortalizas
+20 ene 2016 10:54:03,029 INFO  ~ Application 'tienda' is now started !
+20 ene 2016 10:54:04,970 ERROR ~ 
+
+@6oodo0baa
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/controllers/Application.java around line 14)
+VerifyError occured : Expecting a stack map frame Exception Details:   Location:     controllers/Secure$Security.authentify(Ljava/lang/String;Ljava/lang/String;)Z @33: istore_3   Reason:     Error exists in the bytecode   Bytecode:     0000000: b800 7d12 782b b800 7a12 712a b800 77bb     0000010: 0010 59b7 0012 bf3a 0403 3eb8 0080 1904     0000020: bf3e b800 821d ac                         Exception Handler Table:     bci [0, 23] => handler: 23   Stackmap Table:     same_locals_1_stack_item_frame(@23,Object[#55]) 
+
+play.exceptions.JavaExecutionException: Expecting a stack map frame
+Exception Details:
+  Location:
+    controllers/Secure$Security.authentify(Ljava/lang/String;Ljava/lang/String;)Z @33: istore_3
+  Reason:
+    Error exists in the bytecode
+  Bytecode:
+    0000000: b800 7d12 782b b800 7a12 712a b800 77bb
+    0000010: 0010 59b7 0012 bf3a 0403 3eb8 0080 1904
+    0000020: bf3e b800 821d ac                      
+  Exception Handler Table:
+    bci [0, 23] => handler: 23
+  Stackmap Table:
+    same_locals_1_stack_item_frame(@23,Object[#55])
+
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:237)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.VerifyError: Expecting a stack map frame
+Exception Details:
+  Location:
+    controllers/Secure$Security.authentify(Ljava/lang/String;Ljava/lang/String;)Z @33: istore_3
+  Reason:
+    Error exists in the bytecode
+  Bytecode:
+    0000000: b800 7d12 782b b800 7a12 712a b800 77bb
+    0000010: 0010 59b7 0012 bf3a 0403 3eb8 0080 1904
+    0000020: bf3e b800 821d ac                      
+  Exception Handler Table:
+    bci [0, 23] => handler: 23
+  Stackmap Table:
+    same_locals_1_stack_item_frame(@23,Object[#55])
+
+	at controllers.Application.mostrarUsuario(Application.java:14)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:510)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:484)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:479)
+	at play.mvc.ActionInvoker.handleBefores(ActionInvoker.java:328)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:142)
+	... 1 more
+20 ene 2016 10:56:08,157 ERROR ~ 
+
+@6oodo0bab
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/controllers/Application.java around line 14)
+VerifyError occured : Expecting a stack map frame Exception Details:   Location:     controllers/Secure$Security.authentify(Ljava/lang/String;Ljava/lang/String;)Z @33: istore_3   Reason:     Error exists in the bytecode   Bytecode:     0000000: b800 7d12 782b b800 7a12 712a b800 77bb     0000010: 0010 59b7 0012 bf3a 0403 3eb8 0080 1904     0000020: bf3e b800 821d ac                         Exception Handler Table:     bci [0, 23] => handler: 23   Stackmap Table:     same_locals_1_stack_item_frame(@23,Object[#55]) 
+
+play.exceptions.JavaExecutionException: Expecting a stack map frame
+Exception Details:
+  Location:
+    controllers/Secure$Security.authentify(Ljava/lang/String;Ljava/lang/String;)Z @33: istore_3
+  Reason:
+    Error exists in the bytecode
+  Bytecode:
+    0000000: b800 7d12 782b b800 7a12 712a b800 77bb
+    0000010: 0010 59b7 0012 bf3a 0403 3eb8 0080 1904
+    0000020: bf3e b800 821d ac                      
+  Exception Handler Table:
+    bci [0, 23] => handler: 23
+  Stackmap Table:
+    same_locals_1_stack_item_frame(@23,Object[#55])
+
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:237)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.VerifyError: Expecting a stack map frame
+Exception Details:
+  Location:
+    controllers/Secure$Security.authentify(Ljava/lang/String;Ljava/lang/String;)Z @33: istore_3
+  Reason:
+    Error exists in the bytecode
+  Bytecode:
+    0000000: b800 7d12 782b b800 7a12 712a b800 77bb
+    0000010: 0010 59b7 0012 bf3a 0403 3eb8 0080 1904
+    0000020: bf3e b800 821d ac                      
+  Exception Handler Table:
+    bci [0, 23] => handler: 23
+  Stackmap Table:
+    same_locals_1_stack_item_frame(@23,Object[#55])
+
+	at controllers.Application.mostrarUsuario(Application.java:14)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:510)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:484)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:479)
+	at play.mvc.ActionInvoker.handleBefores(ActionInvoker.java:328)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:142)
+	... 1 more
+20 ene 2016 10:56:09,620 ERROR ~ 
+
+@6oodo0bac
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/controllers/Application.java around line 14)
+VerifyError occured : Expecting a stack map frame Exception Details:   Location:     controllers/Secure$Security.authentify(Ljava/lang/String;Ljava/lang/String;)Z @33: istore_3   Reason:     Error exists in the bytecode   Bytecode:     0000000: b800 7d12 782b b800 7a12 712a b800 77bb     0000010: 0010 59b7 0012 bf3a 0403 3eb8 0080 1904     0000020: bf3e b800 821d ac                         Exception Handler Table:     bci [0, 23] => handler: 23   Stackmap Table:     same_locals_1_stack_item_frame(@23,Object[#55]) 
+
+play.exceptions.JavaExecutionException: Expecting a stack map frame
+Exception Details:
+  Location:
+    controllers/Secure$Security.authentify(Ljava/lang/String;Ljava/lang/String;)Z @33: istore_3
+  Reason:
+    Error exists in the bytecode
+  Bytecode:
+    0000000: b800 7d12 782b b800 7a12 712a b800 77bb
+    0000010: 0010 59b7 0012 bf3a 0403 3eb8 0080 1904
+    0000020: bf3e b800 821d ac                      
+  Exception Handler Table:
+    bci [0, 23] => handler: 23
+  Stackmap Table:
+    same_locals_1_stack_item_frame(@23,Object[#55])
+
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:237)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.VerifyError: Expecting a stack map frame
+Exception Details:
+  Location:
+    controllers/Secure$Security.authentify(Ljava/lang/String;Ljava/lang/String;)Z @33: istore_3
+  Reason:
+    Error exists in the bytecode
+  Bytecode:
+    0000000: b800 7d12 782b b800 7a12 712a b800 77bb
+    0000010: 0010 59b7 0012 bf3a 0403 3eb8 0080 1904
+    0000020: bf3e b800 821d ac                      
+  Exception Handler Table:
+    bci [0, 23] => handler: 23
+  Stackmap Table:
+    same_locals_1_stack_item_frame(@23,Object[#55])
+
+	at controllers.Application.mostrarUsuario(Application.java:14)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:510)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:484)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:479)
+	at play.mvc.ActionInvoker.handleBefores(ActionInvoker.java:328)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:142)
+	... 1 more
